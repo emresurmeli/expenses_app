@@ -6,5 +6,7 @@ app.controller('ExpensesViewController', ['$scope', function($scope) {
     amount: 10
   };
 
-  $scope.phrase = 'this sky is blue';
+  $scope.increaseAmount = function (){
+    $scope.phrase = 'thank you, come again';
+  }
 }])
